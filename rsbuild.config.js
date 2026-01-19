@@ -13,7 +13,7 @@ export default defineConfig({
     pluginModuleFederation({
       name: 'child',
       exposes: {
-        './Button': './src/Button.jsx',
+        './ChildComponent': './src/ChildComponent.jsx',
       },
     }),
   ],
