@@ -8,6 +8,9 @@ export default defineConfig({
   server: {
     port: 3001,
   },
+  output: {
+    assetPrefix: 'https://mfe-child-sin9k.web.app/',
+  },
   plugins: [
     pluginReact(),
     pluginModuleFederation({
