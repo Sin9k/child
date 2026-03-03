@@ -13,15 +13,24 @@
         }
       ],
       "headers": [
-      {
-        "source": "**",
-        "headers": [
-          {
-            "key": "Access-Control-Allow-Origin",
-            "value": "https://mfe-host-sin9k.web.app"
-          }
-        ]
-      }
-    ]
+        {
+          "source": "**",
+          "headers": [
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "https://mfe-host-sin9k.web.app"
+            }
+          ]
+        },
+        {
+          "source": "**/mf-manifest.json",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate"
+            }
+          ]
+        }
+      ]
     }
   }
