@@ -1,6 +1,6 @@
 import './ChildComponent.css';
 
-const ChildComponent = () => {
+export const ChildComponent = () => {
   return (
     <div className="child-container">
       <div className="child-badge">CHILD</div>
@@ -11,5 +11,3 @@ const ChildComponent = () => {
     </div>
   );
 };
-
-export default ChildComponent;
